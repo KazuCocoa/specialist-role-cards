@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "entrypoints": {
+    "vague_request": "goal-enabler-specialist",
+    "bug_or_incident": "root-cause-analyzer",
+    "unclear_code_area": "codebase-explorer-specialist",
+    "architecture_tradeoff": "decision-support-specialist",
+    "approved_goal": "implementation-planner-specialist",
+    "code_review": "review-specialist"
+  },
+  "implementation_specialists": {
+    "typescript": "typescript-backend-specialist",
+    "nodejs": "typescript-backend-specialist",
+    "javascript": "typescript-backend-specialist",
+    "python": "python-backend-specialist"
+  },
+  "parallel_after_implementation": [
+    "security-specialist",
+    "performance-specialist",
+    "test-specialist",
+    "documentation-specialist"
+  ],
+  "default_feature_flow": [
+    "goal-enabler-specialist",
+    "codebase-explorer-specialist",
+    "implementation-planner-specialist",
+    "language-matched-implementation-specialist",
+    "review-specialist",
+    "security-specialist",
+    "performance-specialist",
+    "test-specialist",
+    "documentation-specialist"
+  ],
+  "default_bug_flow": [
+    "root-cause-analyzer",
+    "codebase-explorer-specialist",
+    "language-matched-implementation-specialist",
+    "review-specialist",
+    "security-specialist",
+    "test-specialist",
+    "documentation-specialist"
+  ]
+}
