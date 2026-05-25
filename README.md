@@ -64,6 +64,9 @@ This distinction comes from the prompt metadata in this repo. The runtime behavi
 - `review-specialist`
   - Use before merge to review diffs, PRs, refactors, or design changes.
   - Produces: verdict, strengths, concerns, concrete suggestions, and review questions.
+- `appium-mcp-reviewer`
+  - Use for reviews of `appium-mcp` changes involving MCP tools, Appium sessions, Android/iOS automation, or LLM-facing tool contracts.
+  - Produces: severity-ordered findings, review questions, and notes on tests or residual risk.
 - `security-specialist`
   - Use for security audits across auth, validation, secrets, trust boundaries, and dependency risk.
   - Produces: verdict, severity-grouped findings, dependency risks, and risk decisions.
@@ -127,4 +130,4 @@ The repo now includes explicit routing guidance and a workflow manifest, but a f
 - [test-specialist.prompt.md](.github/prompts/test-specialist.prompt.md)
 - [typescript-backend-specialist.prompt.md](.github/prompts/typescript-backend-specialist.prompt.md)
 - [workflow-router-specialist.prompt.md](.github/prompts/workflow-router-specialist.prompt.md)
-- [appium-mcp-reviewer.md](.github/prompts/appium-mcp-reviewer.md)
+- [appium-mcp-reviewer.prompt.md](.github/prompts/appium-mcp-reviewer.prompt.md)
