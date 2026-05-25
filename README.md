@@ -7,7 +7,7 @@ This is a sandbox for testing out code snippets and ideas. You can use this spac
 
 # Specialist Role Cards
 
-This repository contains a set of reusable specialist prompt cards under [`.github/prompts/`](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts). Each card defines a focused software-delivery role with:
+This repository contains a set of reusable specialist prompt cards under [`.github/prompts/`](.github/prompts). Each card defines a focused software-delivery role with:
 
 - metadata for discovery (`name`, `description`, `agent`, `argument-hint`)
 - a role definition
@@ -21,7 +21,7 @@ These cards are not an application by themselves. They are prompt definitions in
 
 Each file in `.github/prompts/` is a role card. In practice, the host tool surfaces the card by name, and the user invokes it with a short task-specific argument.
 
-The repository also includes a machine-readable workflow manifest at [`.github/specialist-workflow.json`](/Users/kmatsuo1/github/specialist-role-cards/.github/specialist-workflow.json), which captures the default entrypoints, language-to-implementation mappings, and post-implementation parallel specialists in one place.
+The repository also includes a machine-readable workflow manifest at [`.github/specialist-workflow.json`](.github/specialist-workflow.json), which captures the default entrypoints, language-to-implementation mappings, and post-implementation parallel specialists in one place.
 
 The cards appear to fall into two usage styles:
 
@@ -114,16 +114,17 @@ The repo now includes explicit routing guidance and a workflow manifest, but a f
 
 ## Files
 
-- [codebase-explorer-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/codebase-explorer-specialist.prompt.md)
-- [decision-support-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/decision-support-specialist.prompt.md)
-- [documentation-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/documentation-specialist.prompt.md)
-- [goal-enabler-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/goal-enabler-specialist.prompt.md)
-- [implementation-planner-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/implementation-planner-specialist.prompt.md)
-- [performance-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/performance-specialist.prompt.md)
-- [python-backend-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/python-backend-specialist.prompt.md)
-- [review-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/review-specialist.prompt.md)
-- [root-cause-analyzer.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/root-cause-analyzer.prompt.md)
-- [security-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/security-specialist.prompt.md)
-- [test-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/test-specialist.prompt.md)
-- [typescript-backend-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/typescript-backend-specialist.prompt.md)
-- [workflow-router-specialist.prompt.md](/Users/kmatsuo1/github/specialist-role-cards/.github/prompts/workflow-router-specialist.prompt.md)
+- [codebase-explorer-specialist.prompt.md](.github/prompts/codebase-explorer-specialist.prompt.md)
+- [decision-support-specialist.prompt.md](.github/prompts/decision-support-specialist.prompt.md)
+- [documentation-specialist.prompt.md](.github/prompts/documentation-specialist.prompt.md)
+- [goal-enabler-specialist.prompt.md](.github/prompts/goal-enabler-specialist.prompt.md)
+- [implementation-planner-specialist.prompt.md](.github/prompts/implementation-planner-specialist.prompt.md)
+- [performance-specialist.prompt.md](.github/prompts/performance-specialist.prompt.md)
+- [python-backend-specialist.prompt.md](.github/prompts/python-backend-specialist.prompt.md)
+- [review-specialist.prompt.md](.github/prompts/review-specialist.prompt.md)
+- [root-cause-analyzer.prompt.md](.github/prompts/root-cause-analyzer.prompt.md)
+- [security-specialist.prompt.md](.github/prompts/security-specialist.prompt.md)
+- [test-specialist.prompt.md](.github/prompts/test-specialist.prompt.md)
+- [typescript-backend-specialist.prompt.md](.github/prompts/typescript-backend-specialist.prompt.md)
+- [workflow-router-specialist.prompt.md](.github/prompts/workflow-router-specialist.prompt.md)
+- [appium-mcp-reviewer.md](.github/prompts/appium-mcp-reviewer.md)
