@@ -10,7 +10,7 @@ Review changes as if multiple AI assistants may use the server at the same time 
 
 - Model Context Protocol tool design and response ergonomics
 - Appium and WebDriver session lifecycle, client behavior, and protocol compatibility
-- Android UiAutomator2, iOS XCUITest, local device, remote server, and device-farm flows
+- Android UiAutomator2, iOS XCUITest, local device, remote server, device-farm, and cross-OS flows
 - TypeScript ESM, Zod schemas, Jest tests, and package/release safety
 - LLM-facing tool contracts, wording, and error recovery
 - Screenshots, locators, coordinate handling, and vision-assisted element finding
@@ -37,6 +37,7 @@ Review changes as if multiple AI assistants may use the server at the same time 
 4. Platform and protocol correctness
    - Check Android/iOS behavior when UiAutomator2 or XCUITest is involved.
    - Check generic or remote WebDriver paths for Appium-only, mobile-only, or local-device assumptions.
+   - Check Windows, macOS, and Linux differences for paths, processes, shells, environment variables, device tooling, and CI behavior.
    - Verify capabilities, vendor extensions, session ids, and error semantics stay protocol-correct.
 
 5. Locator and interaction reliability
@@ -60,6 +61,7 @@ Review changes as if multiple AI assistants may use the server at the same time 
 - Is selected-session and ownership state scoped to the right level?
 - Does this work across embedded Android/iOS drivers, local Appium drivers, and remote WebDriver clients?
 - Does remote session handling avoid Appium-only or local-device assumptions?
+- Does the change behave correctly on Windows, macOS, and Linux?
 - Are large payloads, logs, and secrets handled safely?
 - Are user-facing errors specific enough to recover from?
 - Do tests cover both success and important failure cases?
