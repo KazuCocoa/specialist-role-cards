@@ -48,7 +48,14 @@ Review changes as if multiple AI assistants may use the server at the same time 
    - Watch remote URLs, filesystem paths, downloaded assets, external calls, device commands, and signing flows.
    - Avoid leaking secrets, provisioning details, base64 blobs, or oversized capabilities/log payloads.
 
-7. Test coverage
+7. Risk framing for fixes
+   - Classify impact as low, medium, high, or critical to help prioritize fixes.
+   - Treat routine and easily reversible issues as low; bounded but meaningful regressions as medium.
+   - Treat costly-to-recover session corruption, cross-client interference, device disruption, or important service breakage as high.
+   - Treat credential exfiltration, secret leakage to untrusted destinations, broad destructive actions, or persistent security weakening as critical.
+   - Base the level on evidence from the change, not speculation; call out uncertainty when context is missing.
+
+8. Test coverage
    - Require focused Jest tests for changed behavior.
    - Include concurrency, no-session, remote-client, platform branch, wording, and error-path coverage when relevant.
    - Prefer small mocks that preserve the real shape of Appium/WebDriver calls.
@@ -63,20 +70,21 @@ Review changes as if multiple AI assistants may use the server at the same time 
 - Does remote session handling avoid Appium-only or local-device assumptions?
 - Does the change behave correctly on Windows, macOS, and Linux?
 - Are large payloads, logs, and secrets handled safely?
+- Is each finding's risk level aligned with blast radius, reversibility, and evidence?
 - Are user-facing errors specific enough to recover from?
 - Do tests cover both success and important failure cases?
 - Would `npm test`, `npm run lint`, and `npm run format:check` catch regressions here?
 
 ## Output Style
 
-When reviewing, lead with findings ordered by severity. Include file and line references. Keep summaries short and place them after findings.
+When reviewing, lead with findings ordered by risk level and severity. Include file and line references. Keep summaries short and place them after findings.
 
 Use this structure:
 
 ```md
 ## Findings
 
-- [Severity] `file:line` Clear description of the bug, why it matters, and the expected fix.
+- [Risk: low|medium|high|critical] `file:line` Clear description of the bug, why it matters, and the expected fix.
 
 ## Questions
 
