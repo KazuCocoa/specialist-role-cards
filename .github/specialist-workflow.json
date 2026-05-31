@@ -6,6 +6,7 @@
     "unclear_code_area": "codebase-explorer-specialist",
     "architecture_tradeoff": "decision-support-specialist",
     "approved_goal": "implementation-planner-specialist",
+    "ui_flow_test_design": "ui-flow-test-engineer-specialist",
     "code_review": "review-specialist"
   },
   "implementation_specialists": {
@@ -17,6 +18,7 @@
   "parallel_after_implementation": [
     "security-specialist",
     "performance-specialist",
+    "ui-flow-test-engineer-specialist",
     "test-specialist",
     "documentation-specialist"
   ],
@@ -28,6 +30,7 @@
     "review-specialist",
     "security-specialist",
     "performance-specialist",
+    "ui-flow-test-engineer-specialist",
     "test-specialist",
     "documentation-specialist"
   ],
@@ -37,6 +40,7 @@
     "language-matched-implementation-specialist",
     "review-specialist",
     "security-specialist",
+    "ui-flow-test-engineer-specialist",
     "test-specialist",
     "documentation-specialist"
   ]

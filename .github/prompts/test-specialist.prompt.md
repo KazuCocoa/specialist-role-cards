@@ -36,3 +36,5 @@ Your job is to help the human think through what should be tested, what may brea
 - Any known edge cases or failure scenarios you are already aware of.
 
 **Note:** This specialist can run in **parallel** with `/security-specialist`, `/performance-specialist`, and `/documentation-specialist` after implementation is approved.
+
+**Related specialist:** For detailed web or mobile UI spec/design review and flow based test design across screens, elements, states, transitions, accessibility, and user-facing errors, use `/ui-flow-test-engineer-specialist`.

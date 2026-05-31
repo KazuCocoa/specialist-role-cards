@@ -73,6 +73,9 @@ This distinction comes from the prompt metadata in this repo. The runtime behavi
 - `test-specialist`
   - Use to derive test scenarios and improve confidence in a change.
   - Produces: checklist, preconditions, expected results, and testing gaps.
+- `ui-flow-test-engineer-specialist`
+  - Use to review web or mobile UI specs, screenshots, wireframes, or Figma-like designs and design flow based test cases across screens, elements, states, transitions, accessibility, validation, and background failures.
+  - Produces: spec/design feedback, UI flow model, interaction matrix, test cases, state/transition coverage, platform risks, and assumptions.
 - `documentation-specialist`
   - Use to write or audit docs against verified behavior.
   - Produces: draft docs or an audit verdict, gaps, and placement guidance.
@@ -93,7 +96,7 @@ For new feature work:
 4. Use `implementation-planner-specialist` to create the spec and implementation plan.
 5. Implement with the language-matched specialist chosen in the plan, typically `typescript-backend-specialist` or `python-backend-specialist`.
 6. Review with `review-specialist`.
-7. Run `security-specialist`, `performance-specialist`, `test-specialist`, and `documentation-specialist` to harden the change.
+7. Run `security-specialist`, `performance-specialist`, `ui-flow-test-engineer-specialist`, `test-specialist`, and `documentation-specialist` to harden the change.
 
 For bug work:
 
@@ -101,7 +104,7 @@ For bug work:
 2. Start with `root-cause-analyzer`.
 3. If the system area is unclear, use `codebase-explorer-specialist`.
 4. Implement the fix with the appropriate backend specialist.
-5. Review and harden with `review-specialist`, `test-specialist`, `security-specialist`, and `documentation-specialist`.
+5. Review and harden with `review-specialist`, `ui-flow-test-engineer-specialist`, `test-specialist`, `security-specialist`, and `documentation-specialist`.
 
 Use `decision-support-specialist` at any point where trade-offs need to be made explicitly.
 
@@ -125,6 +128,7 @@ The repo now includes explicit routing guidance and a workflow manifest, but a f
 - [root-cause-analyzer.prompt.md](.github/prompts/root-cause-analyzer.prompt.md)
 - [security-specialist.prompt.md](.github/prompts/security-specialist.prompt.md)
 - [test-specialist.prompt.md](.github/prompts/test-specialist.prompt.md)
+- [ui-flow-test-engineer-specialist.prompt.md](.github/prompts/ui-flow-test-engineer-specialist.prompt.md)
 - [typescript-backend-specialist.prompt.md](.github/prompts/typescript-backend-specialist.prompt.md)
 - [workflow-router-specialist.prompt.md](.github/prompts/workflow-router-specialist.prompt.md)
 - [appium-mcp-reviewer.md](.github/prompts/appium-mcp-reviewer.md)
