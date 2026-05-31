@@ -74,8 +74,8 @@ This distinction comes from the prompt metadata in this repo. The runtime behavi
   - Use to derive test scenarios and improve confidence in a change.
   - Produces: checklist, preconditions, expected results, and testing gaps.
 - `ui-flow-test-engineer-specialist`
-  - Use to review web or mobile UI specs, screenshots, wireframes, or Figma-like designs and design flow based test cases across screens, elements, states, transitions, accessibility, validation, and background failures.
-  - Produces: spec/design feedback, UI flow model, interaction matrix, test cases, state/transition coverage, platform risks, and assumptions.
+  - Use before writing manual test cases or automation code to review web or mobile UI specs, screenshots, wireframes, or Figma-like designs and surface missing test viewpoints.
+  - Produces: missing viewpoints, spec/design feedback, UI flow model, review matrix, test design direction, automation readiness notes, risks, and assumptions.
 - `documentation-specialist`
   - Use to write or audit docs against verified behavior.
   - Produces: draft docs or an audit verdict, gaps, and placement guidance.

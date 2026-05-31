@@ -35,7 +35,7 @@ Your job is to route a task to the right specialist or sequence of specialists b
 - If the relevant code area is unclear, use `/codebase-explorer-specialist`.
 - If trade-offs between valid options need to be compared, use `/decision-support-specialist`.
 - If the goal is approved and needs to be translated into spec and tasks, use `/implementation-planner-specialist`.
-- If the primary task is UI spec/design review or UI flow based test design for web or mobile screens, use `/ui-flow-test-engineer-specialist`.
+- If the primary task is pre-implementation UI test design, UI spec/design review, or missing-viewpoint analysis for web or mobile screens, use `/ui-flow-test-engineer-specialist`.
 - If the work is ready to implement:
   - use `/typescript-backend-specialist` for TypeScript/Node.js backends
   - use `/python-backend-specialist` for Python backends
