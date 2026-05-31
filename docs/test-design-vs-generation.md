@@ -16,6 +16,21 @@ The UI flow test engineer skill sits earlier in the workflow. Its purpose is to 
 
 This is a test design thinking aid, not a replacement for test engineers.
 
+## Earlier-Stage Focus
+
+This skill is intentionally earlier than many common testing skills. It is not mainly a "generate tests from code" or "generate Playwright from a scenario" skill. Its value is in the moment before the team is ready to write cases or automation.
+
+That earlier stage is where test engineers often add the most judgment:
+
+- noticing that the spec only describes the happy path
+- asking what happens when the user cannot complete an action
+- finding missing loading, empty, error, disabled, and recovery states
+- identifying ambiguous screen transitions or state persistence
+- deciding what needs product/design clarification
+- deciding what should later become manual testing, automation, mocks, or follow-up questions
+
+This makes the skill more like a design-review companion for test engineers than a generation tool. Generation skills accelerate known work; this skill helps discover whether the known work is complete enough to generate from.
+
 ## Where Generation Skills Fit
 
 Generation skills are still valuable, but they are downstream from test design.
