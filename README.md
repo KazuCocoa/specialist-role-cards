@@ -17,6 +17,8 @@ This repository contains a set of reusable specialist prompt cards under [`.agen
 
 These cards are not an application by themselves. They are prompt definitions intended to be discovered and invoked by a host that supports `.prompt.md` files.
 
+The repository can also contain Codex-style skills under [`skills/`](skills). Skills are reusable procedural guides loaded by Codex when a task matches their metadata.
+
 ## How It Works
 
 Each file in `.agents/prompts/` is a role card. In practice, the host tool surfaces the card by name, and the user invokes it with a short task-specific argument.
@@ -116,6 +118,12 @@ The repo now includes explicit routing guidance and a workflow manifest, but a f
 - The language mappings in `.agents/specialist-workflow.json` currently cover TypeScript/Node.js and Python backends only.
 
 ## Files
+
+### Skills
+
+- [ui-flow-test-engineer/SKILL.md](skills/ui-flow-test-engineer/SKILL.md)
+
+### Prompt Cards
 
 - [codebase-explorer-specialist.prompt.md](.agents/prompts/codebase-explorer-specialist.prompt.md)
 - [decision-support-specialist.prompt.md](.agents/prompts/decision-support-specialist.prompt.md)
