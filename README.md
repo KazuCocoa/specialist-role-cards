@@ -19,6 +19,8 @@ These cards are not an application by themselves. They are prompt definitions in
 
 The repository can also contain Codex-style skills under [`skills/`](skills). Skills are reusable procedural guides loaded by Codex when a task matches their metadata.
 
+For the thinking behind the UI flow test skill and how it differs from code/test automation generation, see [Test Design Review vs Test Generation](docs/test-design-vs-generation.md).
+
 ## How It Works
 
 Each file in `.agents/prompts/` is a role card. In practice, the host tool surfaces the card by name, and the user invokes it with a short task-specific argument.
@@ -118,6 +120,10 @@ The repo now includes explicit routing guidance and a workflow manifest, but a f
 - The language mappings in `.agents/specialist-workflow.json` currently cover TypeScript/Node.js and Python backends only.
 
 ## Files
+
+### Supporting Docs
+
+- [test-design-vs-generation.md](docs/test-design-vs-generation.md)
 
 ### Skills
 
