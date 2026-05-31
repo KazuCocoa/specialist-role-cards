@@ -1,6 +1,8 @@
 ---
 name: ui-flow-test-engineer
-description: Use when reviewing web or mobile UI specs, screenshots, wireframes, Figma-like designs, or described UI flows before writing manual test cases or automation code. Surfaces missing test viewpoints, unclear behavior, state/transition risks, accessibility reminders, security/privacy reminders, and automation-readiness concerns so test engineers can design better tests.
+description: |-
+    Use when reviewing web or mobile UI specs, screenshots, wireframes, Figma-like designs, or described UI flows before writing manual test cases or automation code. Surfaces missing test viewpoints, unclear behavior, state/transition risks, accessibility reminders, security/privacy reminders, and automation-readiness concerns so test engineers can design better tests.
+    DO NOT USE FOR: general coding questions unrelated to ui-flow-test-engineer, creating new projects from scratch.
 ---
 
 # UI Flow Test Engineer
