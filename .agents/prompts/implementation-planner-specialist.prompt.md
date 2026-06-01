@@ -45,4 +45,4 @@ Your job is to convert approved goals into a clear, structured plan — separate
 - The target language/runtime if already known.
 - Any preferred tech stack or architectural patterns.
 
-**Next step:** Once the plan is approved by you, continue with the implementation specialist that matches the current target language: `/typescript-backend-specialist` for TypeScript/Node.js backends or `/python-backend-specialist` for Python backends. After implementation, the following specialists can run **in parallel**: `/security-specialist`, `/performance-specialist`, `/test-specialist`, `/documentation-specialist`.
+**Next step:** Once the plan is approved by you, continue with the implementation specialist that matches the current target language: `/typescript-backend-specialist` for TypeScript/Node.js backends or `/python-backend-specialist` for Python backends. After implementation, the following specialists can run **in parallel** when relevant: `/accessibility-specialist`, `/security-specialist`, `/performance-specialist`, `/ui-flow-test-engineer-specialist`, `/test-specialist`, `/documentation-specialist`.

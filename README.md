@@ -68,9 +68,12 @@ This distinction comes from the prompt metadata in this repo. The runtime behavi
 - `review-specialist`
   - Use before merge to review diffs, PRs, refactors, or design changes.
   - Produces: verdict, strengths, concerns, concrete suggestions, and review questions.
+- `accessibility-specialist`
+  - Use for accessibility audits across WCAG/a11y behavior, keyboard and screen reader support, focus, contrast, semantics, EU Accessibility Act (EAA) review triggers, and other provided regulations, platform rules, or internal guidelines.
+  - Produces: verdict, severity-grouped barriers, applicable guidance referenced, manual verification plan, tooling notes, compliance triggers, and decisions needed.
 - `security-specialist`
-  - Use for security audits across auth, validation, secrets, trust boundaries, and dependency risk.
-  - Produces: verdict, severity-grouped findings, dependency risks, and risk decisions.
+  - Use for security and privacy audits across auth, validation, secrets, trust boundaries, PII handling, GDPR triggers, and dependency risk.
+  - Produces: verdict, severity-grouped findings, privacy/compliance triggers, dependency risks, and risk decisions.
 - `performance-specialist`
   - Use for slow endpoints, expensive jobs, memory pressure, throughput limits, or resource-efficiency issues.
   - Produces: bottleneck hypothesis, optimizations, measurement plan, trade-offs, and decisions needed for the current backend stack.
@@ -79,7 +82,7 @@ This distinction comes from the prompt metadata in this repo. The runtime behavi
   - Produces: checklist, preconditions, expected results, and testing gaps.
 - `ui-flow-test-engineer-specialist`
   - Use before writing manual test cases or automation code to review web or mobile UI specs, screenshots, wireframes, or Figma-like designs and surface missing test viewpoints.
-  - Produces: missing viewpoints, spec/design feedback, UI flow model, review matrix, test design direction, automation readiness notes, risks, and assumptions.
+  - Produces: missing viewpoints, spec/design feedback, UI flow model, review matrix, test design direction, automation readiness notes, specialist handoffs, risks, and assumptions.
 - `documentation-specialist`
   - Use to write or audit docs against verified behavior.
   - Produces: draft docs or an audit verdict, gaps, and placement guidance.
@@ -100,7 +103,7 @@ For new feature work:
 4. Use `implementation-planner-specialist` to create the spec and implementation plan.
 5. Implement with the language-matched specialist chosen in the plan, typically `typescript-backend-specialist` or `python-backend-specialist`.
 6. Review with `review-specialist`.
-7. Run `security-specialist`, `performance-specialist`, `ui-flow-test-engineer-specialist`, `test-specialist`, and `documentation-specialist` to harden the change.
+7. Run `accessibility-specialist`, `security-specialist`, `performance-specialist`, `ui-flow-test-engineer-specialist`, `test-specialist`, and `documentation-specialist` to harden the change.
 
 For bug work:
 
@@ -108,7 +111,7 @@ For bug work:
 2. Start with `root-cause-analyzer`.
 3. If the system area is unclear, use `codebase-explorer-specialist`.
 4. Implement the fix with the appropriate backend specialist.
-5. Review and harden with `review-specialist`, `ui-flow-test-engineer-specialist`, `test-specialist`, `security-specialist`, and `documentation-specialist`.
+5. Review and harden with `review-specialist`, `accessibility-specialist`, `ui-flow-test-engineer-specialist`, `test-specialist`, `security-specialist`, and `documentation-specialist`.
 
 Use `decision-support-specialist` at any point where trade-offs need to be made explicitly.
 
@@ -131,6 +134,7 @@ The repo now includes explicit routing guidance and a workflow manifest, but a f
 
 ### Prompt Cards
 
+- [accessibility-specialist.prompt.md](.agents/prompts/accessibility-specialist.prompt.md)
 - [codebase-explorer-specialist.prompt.md](.agents/prompts/codebase-explorer-specialist.prompt.md)
 - [decision-support-specialist.prompt.md](.agents/prompts/decision-support-specialist.prompt.md)
 - [documentation-specialist.prompt.md](.agents/prompts/documentation-specialist.prompt.md)

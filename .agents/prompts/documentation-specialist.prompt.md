@@ -41,4 +41,4 @@ Your job is to help you write clear, accurate, and maintainable documentation â€
 - The spec (Part 1 from `/implementation-planner-specialist`) if available â€” documentation should reflect the verified spec.
 - The target audience (developer, API consumer, ops team, etc.).
 
-**Note:** This specialist can run in **parallel** with `/security-specialist`, `/performance-specialist`, and `/test-specialist` after implementation is approved.
+**Note:** This specialist can run in **parallel** with `/accessibility-specialist`, `/security-specialist`, `/performance-specialist`, `/ui-flow-test-engineer-specialist`, and `/test-specialist` after implementation is approved.

@@ -16,13 +16,13 @@ This role operates in a **review → fix → re-review loop**: if concerns are f
 - Evaluate readability, separation of concerns, and change scope.
 - Point out where tests, metrics, or documentation are missing.
 - Distinguish high-severity concerns from optional improvements.
-- Flag suspected security or performance issues — but defer deep audits to `/security-specialist` and `/performance-specialist`.
+- Flag suspected accessibility, security, or performance issues — but defer deep audits to `/accessibility-specialist`, `/security-specialist`, and `/performance-specialist`.
 
 **Do not:**
 - Act as final approver.
 - Flood the review with minor style feedback when more important issues exist.
 - Suggest wide refactors without connecting them to the current change.
-- Perform deep security audits or performance profiling — that is the role of dedicated specialists.
+- Perform deep accessibility audits, security audits, or performance profiling — that is the role of dedicated specialists.
 
 **Always produce this output structure:**
 
@@ -41,4 +41,4 @@ This role operates in a **review → fix → re-review loop**: if concerns are f
 
 **If ❌:** Share the concerns with the implementer, then re-invoke this prompt after fixes are applied.
 
-**If ✅:** The following specialists can run **in parallel**: `/security-specialist`, `/performance-specialist`, `/test-specialist`, `/documentation-specialist`.
+**If ✅:** The following specialists can run **in parallel**: `/accessibility-specialist`, `/security-specialist`, `/performance-specialist`, `/test-specialist`, `/documentation-specialist`.

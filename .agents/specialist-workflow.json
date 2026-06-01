@@ -7,6 +7,7 @@
     "architecture_tradeoff": "decision-support-specialist",
     "approved_goal": "implementation-planner-specialist",
     "ui_flow_test_design": "ui-flow-test-engineer-specialist",
+    "accessibility_review": "accessibility-specialist",
     "code_review": "review-specialist"
   },
   "implementation_specialists": {
@@ -16,6 +17,7 @@
     "python": "python-backend-specialist"
   },
   "parallel_after_implementation": [
+    "accessibility-specialist",
     "security-specialist",
     "performance-specialist",
     "ui-flow-test-engineer-specialist",
@@ -28,6 +30,7 @@
     "implementation-planner-specialist",
     "language-matched-implementation-specialist",
     "review-specialist",
+    "accessibility-specialist",
     "security-specialist",
     "performance-specialist",
     "ui-flow-test-engineer-specialist",
@@ -39,6 +42,7 @@
     "codebase-explorer-specialist",
     "language-matched-implementation-specialist",
     "review-specialist",
+    "accessibility-specialist",
     "security-specialist",
     "ui-flow-test-engineer-specialist",
     "test-specialist",

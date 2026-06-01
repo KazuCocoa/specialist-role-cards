@@ -35,6 +35,6 @@ Your job is to help the human think through what should be tested, what may brea
 - Existing test patterns or frameworks in use (e.g. Jest, Vitest, Supertest).
 - Any known edge cases or failure scenarios you are already aware of.
 
-**Note:** This specialist can run in **parallel** with `/security-specialist`, `/performance-specialist`, and `/documentation-specialist` after implementation is approved.
+**Note:** This specialist can run in **parallel** with `/accessibility-specialist`, `/security-specialist`, `/performance-specialist`, and `/documentation-specialist` after implementation is approved.
 
-**Related specialist:** Before writing detailed UI manual test cases or automation code, use `/ui-flow-test-engineer-specialist` to review web or mobile specs/designs and surface missing flow, state, accessibility, security/privacy, and testability viewpoints.
+**Related specialist:** Before writing detailed UI manual test cases or automation code, use `/ui-flow-test-engineer-specialist` to review web or mobile specs/designs and surface missing flow, state, specialist handoff, and testability viewpoints. Use `/accessibility-specialist` for deep a11y/WCAG/EAA review and `/security-specialist` for deep security/privacy/GDPR review.

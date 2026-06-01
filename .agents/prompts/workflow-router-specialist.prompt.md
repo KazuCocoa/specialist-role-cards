@@ -36,12 +36,13 @@ Your job is to route a task to the right specialist or sequence of specialists b
 - If trade-offs between valid options need to be compared, use `/decision-support-specialist`.
 - If the goal is approved and needs to be translated into spec and tasks, use `/implementation-planner-specialist`.
 - If the primary task is pre-implementation UI test design, UI spec/design review, or missing-viewpoint analysis for web or mobile screens, use `/ui-flow-test-engineer-specialist`.
+- If the primary task is accessibility review, WCAG/a11y verification, or EU Accessibility Act risk, use `/accessibility-specialist`.
 - If the work is ready to implement:
   - use `/typescript-backend-specialist` for TypeScript/Node.js backends
   - use `/python-backend-specialist` for Python backends
 - If a code change exists and needs quality review, use `/review-specialist`.
 - If the primary task is diagnosing a bug or incident, start with `/root-cause-analyzer`.
-- After implementation or an approved review, `/security-specialist`, `/performance-specialist`, `/ui-flow-test-engineer-specialist`, `/test-specialist`, and `/documentation-specialist` may be recommended as parallel follow-up specialists when relevant.
+- After implementation or an approved review, `/accessibility-specialist`, `/security-specialist`, `/performance-specialist`, `/ui-flow-test-engineer-specialist`, `/test-specialist`, and `/documentation-specialist` may be recommended as parallel follow-up specialists when relevant.
 
 ---
 

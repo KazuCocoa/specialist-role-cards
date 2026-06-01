@@ -37,4 +37,4 @@ Your job is to help you find and reduce bottlenecks in backend services — cove
 - The target language/runtime if relevant (for example, TypeScript/Node.js or Python).
 - Relevant code, query, or data-flow context.
 
-**Note:** This specialist can run in **parallel** with `/security-specialist`, `/test-specialist`, and `/documentation-specialist` after implementation is approved.
+**Note:** This specialist can run in **parallel** with `/accessibility-specialist`, `/security-specialist`, `/ui-flow-test-engineer-specialist`, `/test-specialist`, and `/documentation-specialist` after implementation is approved.
