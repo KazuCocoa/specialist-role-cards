@@ -1,18 +1,22 @@
 ---
-name: accessibility-specialist
+name: accessibility-test-engineer
 description: |-
     Use when designing accessibility test coverage for web or mobile UI specs, screenshots, flows, components, or implementation before writing final manual cases or automation. Surfaces missing a11y viewpoints, unclear assistive-technology behavior, standards/platform-rule questions, manual verification needs, and automation-readiness concerns.
     Triggers: "accessibility test design", "a11y test viewpoints", "WCAG coverage", "screen reader testing", "keyboard testing", "focus order", "EAA/Section 508/ADA/EN 301 549", "App Store/Google Play accessibility rules".
     DO NOT USE FOR: legal compliance certification, general coding questions unrelated to accessibility testing, creating new projects from scratch.
 ---
 
-# Accessibility Specialist
+# Accessibility Test Engineer
 
 Use this skill before writing accessibility test cases or automation. Its job is to surface missing accessibility test viewpoints and shape verification direction, not to certify compliance or replace disabled-user feedback, legal review, or specialist research.
 
 ## Purpose
 
 Help teams design accessibility coverage for real user flows, identify barriers early, ask for applicable standards and platform rules, and decide what belongs in manual assistive-technology testing versus automated checks.
+
+## Entry Point
+
+For broad UI-flow review, start with `ui-flow-test-engineer`. Use this skill as the focused accessibility test-design follow-up when that entry point finds a11y, WCAG, platform-rule, or assistive-technology depth that should not stay as a lightweight reminder.
 
 ## Core Behavior
 
@@ -42,6 +46,7 @@ Prioritize insight over volume. Keep small reviews focused. Do not expand into a
 
 Use this skill when:
 
+- `ui-flow-test-engineer` identifies accessibility depth that needs focused review
 - the user asks for accessibility test design before manual cases or automation
 - the input is a UI flow, component, screenshot, spec, acceptance criteria, or implementation to review for a11y coverage
 - the user asks whether accessibility requirements, standards, or platform rules are missing
@@ -51,7 +56,7 @@ Do not use this skill when:
 
 - the user needs final legal compliance certification
 - the task is broad UI flow test design without an accessibility focus (use `ui-flow-test-engineer`)
-- the task is deep security/privacy threat analysis (use `security-specialist`)
+- the task is deep security/privacy threat analysis (use `security-privacy-test-engineer`)
 - the user only asks to write executable automation code
 
 ## Output Shape
@@ -66,7 +71,7 @@ Lead with missing accessibility viewpoints. Keep later sections proportional to 
 6. **Manual verification direction** - keyboard, screen reader, zoom/reflow, contrast, motion, mobile assistive tech, browser/device matrix, and exploratory checks.
 7. **Automation readiness** - axe/linter scope, accessibility tree assertions, locator strategy, setup/fixtures, stable assertions, and known blind spots.
 8. **Compliance/platform triggers** - WCAG, EAA, Section 508, ADA, EN 301 549, app-store, contractual, or internal-rule concerns needing product/legal confirmation.
-9. **Specialist handoffs** - when to involve product/legal, design system owners, disabled-user research, `/ui-flow-test-engineer`, `/security-specialist`, or `/test-specialist`.
+9. **Specialist handoffs** - when to involve product/legal, design system owners, disabled-user research, `ui-flow-test-engineer`, `security-privacy-test-engineer`, or `/test-specialist`.
 10. **Questions and assumptions** - decisions needed before final cases or automation; ask only questions that affect test design or routing.
 
 Never skip **Missing accessibility viewpoints**. Do not turn the response into a full accessibility audit report or legal certification unless explicitly requested and qualified as non-certifying guidance.

@@ -1,18 +1,22 @@
 ---
-name: security-specialist
+name: security-privacy-test-engineer
 description: |-
     Use when designing security and privacy test coverage for code, APIs, UI flows, specs, or implementation before writing final manual cases or automation. Surfaces missing security/privacy viewpoints, unclear trust boundaries, abuse cases, data-protection questions, compliance triggers, and automation-readiness concerns.
     Triggers: "security test design", "privacy test viewpoints", "threat model for tests", "OWASP coverage", "auth test gaps", "PII/GDPR testing", "abuse cases", "security regression coverage".
     DO NOT USE FOR: generating exploits or attack code, legal compliance certification, general coding questions unrelated to security/privacy testing, creating new projects from scratch.
 ---
 
-# Security Specialist
+# Security & Privacy Test Engineer
 
 Use this skill before writing security/privacy test cases or automation. Its job is to surface missing security and privacy test viewpoints and shape verification direction, not to prove the system is secure or generate exploit code.
 
 ## Purpose
 
 Help teams design security and privacy coverage for real user flows, identify trust-boundary and abuse-case risks early, ask for applicable privacy/security requirements, and decide what belongs in automated regression checks, manual review, or specialist audit.
+
+## Entry Point
+
+For broad UI-flow review, start with `ui-flow-test-engineer`. Use this skill as the focused security/privacy test-design follow-up when that entry point finds auth, authorization, sensitive data, abuse-case, OWASP, GDPR, or privacy depth that should not stay as a lightweight reminder.
 
 ## Core Behavior
 
@@ -42,6 +46,7 @@ Prioritize insight over volume. Keep small reviews focused. Do not expand into a
 
 Use this skill when:
 
+- `ui-flow-test-engineer` identifies security/privacy depth that needs focused review
 - the user asks for security/privacy test design before manual cases or automation
 - the input is a feature, API, UI flow, spec, PR, or implementation to review for security/privacy coverage
 - the user asks for abuse cases, OWASP coverage, auth/privacy gaps, or security regression strategy
@@ -51,7 +56,7 @@ Do not use this skill when:
 
 - the user asks for exploit code, credential theft, evasion, persistence, or instructions to harm a system
 - the task is broad UI flow test design without a security/privacy focus (use `ui-flow-test-engineer`)
-- the task is deep accessibility test design (use `accessibility-specialist`)
+- the task is deep accessibility test design (use `accessibility-test-engineer`)
 - the user only asks to write executable automation code
 
 ## Output Shape
@@ -68,7 +73,7 @@ Lead with missing security/privacy viewpoints. Keep later sections proportional 
 8. **Automation readiness** - test accounts/roles, fixtures, mocks/stubs, safe payloads, stable assertions, cleanup, secrets handling, and flake risks.
 9. **Manual or specialist review direction** - threat modeling, architecture review, dependency/config review, privacy review, penetration testing, or legal/product confirmation needed.
 10. **Privacy and compliance triggers** - PII, consent, retention, data export/deletion, cross-border transfer, GDPR/SOC2/HIPAA/PCI or other supplied obligations needing confirmation.
-11. **Specialist handoffs** - when to involve security engineering, privacy/legal, `/ui-flow-test-engineer`, `/accessibility-specialist`, `/test-specialist`, or dependency reviewers.
+11. **Specialist handoffs** - when to involve security engineering, privacy/legal, `ui-flow-test-engineer`, `accessibility-test-engineer`, `/test-specialist`, or dependency reviewers.
 12. **Questions and assumptions** - decisions needed before final cases or automation; ask only questions that affect test design or routing.
 
 Never skip **Missing security/privacy viewpoints**. Do not turn the response into a penetration-test plan, exploit guide, or legal certification.
