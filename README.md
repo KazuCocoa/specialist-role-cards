@@ -130,6 +130,8 @@ The repo now includes explicit routing guidance and a workflow manifest, but a f
 
 ### Skills
 
+- [accessibility-specialist/SKILL.md](skills/accessibility-specialist/SKILL.md)
+- [security-specialist/SKILL.md](skills/security-specialist/SKILL.md)
 - [ui-flow-test-engineer/SKILL.md](skills/ui-flow-test-engineer/SKILL.md)
 
 ### Prompt Cards
