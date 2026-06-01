@@ -131,10 +131,12 @@ The repo now includes explicit routing guidance and a workflow manifest, but a f
 ### Skills
 
 - [accessibility-test-engineer/SKILL.md](skills/accessibility-test-engineer/SKILL.md)
+- [localization-test-engineer/SKILL.md](skills/localization-test-engineer/SKILL.md)
 - [security-privacy-test-engineer/SKILL.md](skills/security-privacy-test-engineer/SKILL.md)
+- [test-automation-engineer/SKILL.md](skills/test-automation-engineer/SKILL.md)
 - [ui-flow-test-engineer/SKILL.md](skills/ui-flow-test-engineer/SKILL.md)
 
-For UI test-design work, `ui-flow-test-engineer` is the default entry point. Use `accessibility-test-engineer` and `security-privacy-test-engineer` as focused follow-ups when that review finds field-specific depth that should be delegated.
+For UI test-design work, `ui-flow-test-engineer` is the default entry point. Use `accessibility-test-engineer`, `security-privacy-test-engineer`, and `localization-test-engineer` as focused follow-ups when that review finds field-specific depth that should be delegated. Use `test-automation-engineer` once approved test design is ready to become automation strategy.
 
 ### Prompt Cards
 
