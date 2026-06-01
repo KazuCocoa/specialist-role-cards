@@ -81,3 +81,40 @@ That is useful after the test design is clear. Before automation, a test enginee
 4. Use code-derived tests to lock implementation behavior and protect regressions.
 
 The goal is not to avoid generation. The goal is to avoid generating polished tests for an incomplete understanding.
+
+## Related Public Examples (GitHub)
+
+The exact name and positioning of this skill (UI flow test design before test generation) appears uncommon, but adjacent patterns are present in public repositories.
+
+### GitHub Awesome Copilot (adjacent examples)
+
+- Playwright test generation from a provided scenario:
+	- https://github.com/github/awesome-copilot/blob/main/skills/playwright-generate-test/SKILL.md
+- Website exploration first, then test case proposal:
+	- https://github.com/github/awesome-copilot/blob/main/skills/playwright-explore-website/SKILL.md
+- Browser-based web app testing workflow:
+	- https://github.com/github/awesome-copilot/blob/main/skills/webapp-testing/SKILL.md
+- UI/design review and visual issue detection:
+	- https://github.com/github/awesome-copilot/blob/main/skills/web-design-reviewer/SKILL.md
+- Test planning and QA process scaffolding:
+	- https://github.com/github/awesome-copilot/blob/main/skills/breakdown-test/SKILL.md
+
+### OpenAI Skills Collection (adjacent examples)
+
+- Playwright CLI automation workflow:
+	- https://github.com/openai/skills/blob/main/skills/.curated/playwright/SKILL.md
+- Playwright interactive debugging and visual QA workflow:
+	- https://github.com/openai/skills/blob/main/skills/.curated/playwright-interactive/SKILL.md
+
+### Structure/Packaging References
+
+If you are designing or iterating skills, these references are useful for metadata, triggering, and packaging conventions:
+
+- Skills in OpenAI API (concepts and packaging):
+	- https://github.com/openai/openai-cookbook/blob/main/examples/skills_in_api.ipynb
+- Agent Skills authoring guidance (GitHub Awesome Copilot):
+	- https://github.com/github/awesome-copilot/blob/main/instructions/agent-skills.instructions.md
+
+### Comparison Note
+
+Most linked skills are either generation-first or execution-first. This repository's ui-flow-test-engineer focus remains intentionally earlier-stage: identify missing viewpoints and design risks before test case or automation generation.
