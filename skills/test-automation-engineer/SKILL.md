@@ -98,3 +98,7 @@ Before finalizing, quietly check that the response covers applicable selector st
 - Do not over-automate exploratory, volatile, or subjective checks without naming the maintenance cost.
 - Do not write final detailed automation code unless explicitly asked.
 - Do not invent selectors, test hooks, fixtures, or implementation behavior as fact; mark them as assumptions, risks, or questions.
+
+## Improvement Notes
+
+If the interaction reveals a recurring weakness in this skill, add a brief **Improvement note** in the response describing the suggested skill change. Do not rewrite this file or claim persistent self-improvement unless the user explicitly asks for a repository edit.

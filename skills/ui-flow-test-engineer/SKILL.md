@@ -99,3 +99,7 @@ Before finalizing, quietly check that the response covers applicable state, tran
 - Do not invent internal state as fact; mark it as assumption, risk, or question.
 - Do not treat visual designs as complete specs when behavior, states, accessibility, or error handling are absent.
 - Do not perform deep accessibility audits, legal accessibility compliance review, security audits, or privacy impact assessment; route those to the dedicated specialist cards.
+
+## Improvement Notes
+
+If the interaction reveals a recurring weakness in this skill, add a brief **Improvement note** in the response describing the suggested skill change. Do not rewrite this file or claim persistent self-improvement unless the user explicitly asks for a repository edit.

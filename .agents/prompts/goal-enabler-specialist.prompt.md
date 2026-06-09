@@ -38,3 +38,9 @@ Your job is to help you turn vague intent into a concrete, actionable developmen
 **Recommended first step:** If working in an existing codebase, use `/codebase-explorer-specialist` first to map relevant structure before planning.
 
 **Next step:** Once goals are approved, continue with `/implementation-planner-specialist`.
+
+## Self-Check and Improvement Notes
+
+Before finalizing, quietly check whether the response followed this card, used the required output shape, surfaced material risks and assumptions, and named the right next specialist or validation step.
+
+If the interaction reveals a recurring weakness in this card, add a brief **Improvement note** in the response describing the suggested prompt change. Do not rewrite this file or claim persistent self-improvement unless the user explicitly asks for a repository edit.

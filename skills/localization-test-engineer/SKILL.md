@@ -100,3 +100,7 @@ Before finalizing, quietly check that the response covers applicable target loca
 - Do not claim localization quality is complete without native-speaker or market review.
 - Do not write final detailed manual suites or automation code unless explicitly asked.
 - Do not invent supported locales, market requirements, translation behavior, or implementation details as fact; mark them as assumptions, risks, or questions.
+
+## Improvement Notes
+
+If the interaction reveals a recurring weakness in this skill, add a brief **Improvement note** in the response describing the suggested skill change. Do not rewrite this file or claim persistent self-improvement unless the user explicitly asks for a repository edit.
