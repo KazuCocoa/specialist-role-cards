@@ -101,3 +101,7 @@ Before finalizing, quietly check that the response covers applicable keyboard, f
 - Do not replace disabled-user feedback, usability research, or specialist legal advice.
 - Do not write final detailed manual suites or automation code unless explicitly asked.
 - Do not invent applicable regulations, platform rules, or implementation behavior as fact; mark them as assumptions, risks, or questions.
+
+## Improvement Notes
+
+If the interaction reveals a recurring weakness in this skill, add a brief **Improvement note** in the response describing the suggested skill change. Do not rewrite this file or claim persistent self-improvement unless the user explicitly asks for a repository edit.
